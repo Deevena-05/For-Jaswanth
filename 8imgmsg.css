@@ -1,0 +1,137 @@
+/* Reset default margin and height for body and HTML elements */
+body, 
+html {
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    max-width: 700px; /* Limit container width */
+    width: 100%; /* Ensure container takes full width */
+    padding: 15px 25%; /* Add padding to the left and right sides */
+    align-items: center; /* Center-align items horizontally */
+    text-decoration: none;
+}
+
+/* Box styles */
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Margin between boxes */
+    width: 60%; /* Set the width of the boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 30px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
+    overflow: hidden;
+}
+
+/* Image styles */
+img {
+    width: 100%; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */ 
+    border-radius: 10px 10px 10px 10px; /* Rounded corners on the left side */
+    
+}
+
+/* Message styles */
+.message {
+    position:absolute;
+    transform: translate(-50%); /* Center the message both horizontally and vertically */
+    font-size: 40px; /* Adjust font size as needed */
+    color: #000000; /* Dark text color */
+    text-align:center; /* Center-align text */
+    padding: 0px; /* Add padding to the message */
+    text-decoration:none; /* Remove underline */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+/* Right-aligned box styles */
+.right {
+    justify-content: flex-end; /* Align items to the right */
+}
+
+/* Left-aligned box styles */
+.left {
+    justify-content: flex-start; /* Align items to the left */
+}
+
+/* Message alignment for right-aligned boxes */
+.right .message {
+    margin-right: -30px; /* Adjust margin for messages aligned to the right */
+    text-decoration: none;
+    right: 05%;
+    top: 80%;
+}
+
+/* Message alignment for left-aligned boxes */
+.left .message {
+    margin-left: 30px; /* Adjust margin for messages aligned to the left */
+    text-decoration:none;
+    left: 43%;
+    top: 80%;
+}
+
+/* Hover effect on boxes */
+.box:hover {
+    transform: translateY(-5px); /* Move box up slightly on hover */
+}
+
+
+/* Styles for left-aligned boxes */
+.box.left {
+  border-radius: 10px; /* Rounded edges */
+  padding: 10px; /* Padding inside the box */
+  margin-right: auto; /* Margin to the right (auto adjusts for flex-start alignment) */
+}
+
+/* Styles for right-aligned boxes */
+.box.right {
+  border-radius: 10px; /* Rounded edges */
+  padding: 10px; /* Padding inside the box */
+  margin-left: auto; /* Margin to the left (auto adjusts for flex-end alignment) */
+}
+
+/* Accent Color */
+.box:hover {
+    border-color: #ffcccc;
+}
+
+
+/* Background Color */
+body {
+    background-color: #00203FFF; /* Light gray or off-white background color */
+}
+
+/* Box Background Color */
+.box {
+    background-color: #ADEFD1FF;
+}
+
+
+header {
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
