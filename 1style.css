@@ -1,0 +1,177 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color:aliceblue;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding:0px;
+    text-align: center;
+}
+
+section {
+    background-color:#fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+}
+
+p {
+    color:crimson;
+    line-height: 1.6;
+    font-size:medium;
+}
+
+footer {
+    background-color:black;
+    color:blanchedalmond;
+    text-align: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+.center {
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+
+.image-button {
+  position:absolute;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999; 
+  border: 2px solid white;
+  border-radius: 10px;
+  width: fit-content;
+  display: inline-block;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.image-button img {
+  width: 100px; 
+  height: auto; 
+}
+
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    margin-bottom: 20px; 
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.click-me-button {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translate(500%, 865%);
+    padding: 0px 10px;
+    background-color: #faf8f8;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click-me-button:hover {
+    background-color: #f9d69a;
+}
+
+.click-me-button a {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.click-me-button img {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

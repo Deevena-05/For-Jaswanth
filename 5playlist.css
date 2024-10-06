@@ -1,0 +1,80 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#00008B;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+        background-image: url('playlist/him.jpg');
+        background-size: cover; 
+        background-position: center; 
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #FFF5EE;
+}
+
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.song {
+    background-color: #E0B0FF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.song:hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    font-weight: bold;
+    color: #1B1212;
+}
+
+.artist {
+    color: #666;
+}
+
+
+
+
+
+.control-button {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    border:black;
+    cursor: pointer;
+    align-content: center;
+}
+
+.play {
+    background-image: url('playlist/play.png'); 
+}
+
+.pause {
+    background-image: url('playlist/pause.png'); 
+}
+
+.previous {
+    background-image: url('playlist/previous.png'); 
+}
+
+.next {
+    background-image: url('playlist/next.png'); 
+}
+
+
+

@@ -1,0 +1,148 @@
+.image-slider{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    transition: 1s;
+}
+
+.slides-div {
+    display: flex;
+    align-items:flex-end;
+    justify-content:end;
+    margin: 0 30px;
+}
+
+.img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+.button {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span8:target ~ .image-slider #img8,
+#slider-span8:target ~ .image-slider #button-8{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span9:target ~ .image-slider #img9,
+#slider-span9:target ~ .image-slider #button-9{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span10:target ~ .image-slider #img10,
+#slider-span10:target ~ .image-slider #button-10{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+#slider-span11:target ~ .image-slider #img11,
+#slider-span11:target ~ .image-slider #button-11{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+}
+
+
+#slider-span1:target ~.image-slider{
+    left: 110%;
+}
+#slider-span2:target ~.image-slider{
+    left:100%;
+}
+#slider-span3:target ~.image-slider{
+    left:75%;
+}
+#slider-span4:target ~.image-slider{
+    left:50%;
+}
+#slider-span5:target ~.image-slider{
+    left:25%;
+}
+#slider-span6:target ~.image-slider{
+    left:0%;
+}
+#slider-span7:target ~.image-slider{
+    left:-25%;
+}
+#slider-span8:target ~.image-slider{
+    left:-50%;
+}
+#slider-span9:target ~.image-slider{
+    left:-75%;
+}
+#slider-span10:target ~.image-slider{
+    left:-100%;
+}
+#slider-span11:target ~.image-slider{
+    left:-110%;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pics/TOYOTA\ Supra\ 2020.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; 
+}
